@@ -2513,7 +2513,7 @@ blockquote {
   opacity: 0.6; }
 
 .action-count {
-  background-image: url("/assets/img/about/count-bg.png");
+  background-image: url("../../assets/img/about/count-bg.png");
   background-size: contain;
   background-repeat: no-repeat;
   min-width: 63px;
