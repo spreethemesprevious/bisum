@@ -2736,7 +2736,7 @@ blockquote {
   border-radius: 4px; }
 
 .about-banner {
-  background-image: url("/assets/img/about/banner.jpg");
+  background-image: url("../../assets/img/about/banner.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center; }
