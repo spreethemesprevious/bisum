@@ -1,41 +1,3 @@
-/*================================================
-[  Table of contents  ]
-================================================
-
-    1. Mobile Menu (meanmenu js)
-    2. Mega Menu Column Support
-    3. Current Year Copyright area
-    4. Background Image
-    4. Slick Carousel 
-        4.1 Active Slider - 1 (home-1)
-        4.2 Active By Brand
-        4.3 Active Featured Product
-        4.4 Active Blog
-        4.5 Active Blog 2
-        4.6 Active Related Product
-		4.7 Active Team Member
-    5. Countdown
-    6. ScrollUp
-    7. Tooltip 
-    8. Treeview active
-    9. Price Slider
-    10. Fancybox active
-    11. Elevate Zoom active 
-    12. single-product-zoom-image carousel
-    13. Cart Plus Minus Button
-    14. bootstrap accordion one open at a time
-    15. Cart tab menu active
-    16. Blog page manu dropdown 
-    17. Background Toutube Video 
-    18. STICKY sticky-header
-
-======================================
-[ End table content ]
-======================================*/
-
-
-
-
 (function($) {
     "use strict";
   
@@ -122,25 +84,8 @@
             });
         });
 
-
-        /* ---------------------------------------------------------
-             Current Year Copyright area
-        --------------------------------------------------------- */
-        $(".current-year").text((new Date).getFullYear());
-
-
-        /* ---------------------------------------------------------
-             Background Image
-        --------------------------------------------------------- */
-        var $backgroundImage = $('.bg-image, .bg-image-top');
-        $backgroundImage.each(function() {
-            var $this = $(this),
-                $bgImage = $this.data('bg');
-            $this.css('background-image', 'url('+$bgImage+')');
-        });
-
         /* --------------------------------------------------------
-            34. scrollUp active
+        scrollUp active
         -------------------------------------------------------- */
         $.scrollUp({
             scrollText: '<i class="fa fa-angle-up"></i>',
@@ -148,8 +93,6 @@
             scrollSpeed: 900,
             animation: 'fade'
         });
-
-
 
     });
 

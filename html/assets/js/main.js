@@ -148,4 +148,23 @@
     protect: true
   });
 
+
+  /* --------------------------------------------------------
+    scrollUp active
+  -------------------------------------------------------- */
+  var scrollUpBtn = $('#scrollup');
+
+  $(window).scroll(function() {
+    if ($(window).scrollTop() > 700) {
+      scrollUpBtn.addClass('show');
+    } else {
+      scrollUpBtn.removeClass('show');
+    }
+  });
+
+  scrollUpBtn.on('click', function(e) {
+    e.preventDefault();
+    $('html, body').animate({scrollTop:0}, 300);
+  });
+
 })(jQuery);
