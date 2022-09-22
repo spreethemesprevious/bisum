@@ -2173,11 +2173,15 @@ blockquote {
 .product-gallery-vertical .img-thumb-wrapper {
   margin-top: 6px; }
 
+.img-large-wrapper {
+  cursor: pointer; }
+
 .img-thumb-wrapper {
   outline: 1px solid transparent;
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
-  transition: all 0.3s ease; }
+  transition: all 0.3s ease;
+  cursor: pointer; }
 
 .slick-current .img-thumb-wrapper {
   outline: 1px solid #000; }
