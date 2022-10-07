@@ -889,10 +889,26 @@
     .filter-sorting {
         width: 100%;
     }
+    .newsletter-input-box {
+        flex-wrap: wrap;
+    }
+    .newsletter-input-box button {
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 @media (max-width: 400px) {
     .offcanvas {
         max-width: 100vw;
+    }
+    .newsletter-modal-heading {
+        flex-wrap: wrap;
+    }
+    .newsletter-modal-icon {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 15px;
     }
 }

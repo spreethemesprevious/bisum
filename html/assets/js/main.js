@@ -167,4 +167,13 @@
     $('html, body').animate({scrollTop:0}, 300);
   });
 
+  /* --------------------------------------------------------
+    newsletter popup
+  -------------------------------------------------------- */
+  $ (window).ready (function () {
+    setTimeout (function () {
+      $ ('#modal-subscribe').modal ("show")
+    }, 3000);
+  })
+
 })(jQuery);
