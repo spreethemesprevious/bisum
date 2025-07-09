@@ -56,10 +56,15 @@
     font-weight: 500;
 }
 
-.img-menu-action:hover span,
+
 .main-menu .menu-list-item.active .nav-link,
-.main-menu .menu-list-item:hover .nav-link,
-.main-menu .nav-text-sub:hover {
+.main-menu .menu-list-item:hover .nav-link{
+    color: var(--secondary-color);
+}
+
+.img-menu-action:hover span,
+.main-menu .nav-text-sub:hover,
+.header-category-widget .nav-link-sub:hover {
     color: var(--secondary-color);
 }
 

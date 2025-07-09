@@ -20,6 +20,10 @@
     margin-top: 24px;
 }
 
+.faq-electronics .faq-item {
+    background-color: #f7f7f7;
+}
+
 .faq-body {
     margin-bottom: 0;
     font-weight: 400;
@@ -35,4 +39,8 @@
     .collapsed & {
         transform: rotate(0deg);
     }
+}
+
+.faq-electronics .faq-heading-icon {
+    color: #000;
 }

@@ -1,0 +1,179 @@
+.hero-banner {
+  --color-background: 0, 0, 0;
+  --color-foreground: 255, 255, 255;
+  --color-secondary-button-text: 255, 255, 255;
+  --color-heading: 255, 255, 255;
+  --color-subheading: 255, 255, 255;
+  --color-secondary-button-text-hover: 255, 255, 255; }
+
+.hero-banner.hero-fixed-bg-3 {
+  --color-foreground: 0, 0, 0;
+  --color-heading: 0, 0, 0;
+  --color-secondary-button-text: 0, 0, 0;
+  --color-secondary-button-text-hover: 0, 0, 0; }
+
+.hero-banner-2 {
+  --color-background: 255, 255, 255;
+  --color-foreground: 0, 0, 0;
+  --color-secondary-button-text: 0, 0, 0;
+  --color-heading: 0, 0, 0;
+  --color-secondary-button-border: 0, 0, 0;
+  --color-secondary-button-text-hover: 0, 0, 0; }
+
+.banner-countdown {
+  --color-button: 255, 255, 255;
+  --color-button-text: 0, 0, 0;
+  --color-button-border: 255, 255, 255;
+  --color-button-hover: 228, 229, 229;
+  --color-button-text-hover: 0, 0, 0;
+  --color-button-border-hover: 228, 229, 229; }
+
+.hero-banner-2,
+.hero-banner {
+  width: 100%;
+  height: 700px;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative; }
+
+.collection-banner .hero-banner {
+  height: 420px; }
+
+.hero-banner .content-box {
+  max-width: 610px; }
+
+.hero-banner .hero-heading {
+  margin-top: 8px; }
+
+.hero-banner .hero-text {
+  margin-top: 8px; }
+
+.hero-banner .hero-button {
+  margin-top: 32px; }
+
+.hero-banner-2 .content-box {
+  max-width: 450px;
+  background-color: rgba(var(--color-background), 1);
+  text-align: center;
+  padding: 64px; }
+
+.hero-image img {
+  height: 100%; }
+
+.hero-banner-2 .hero-image {
+  position: relative;
+  height: 100%; }
+
+.hero-banner-2 .hero-image img {
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: center;
+  object-position: center; }
+
+.hero-banner .banner-container,
+.hero-banner-2 .banner-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: inherit; }
+
+.hero-banner-2 .hero-subheading {
+  margin-bottom: 16px; }
+
+.hero-banner-2 .hero-text,
+.hero-banner-2 .hero-heading {
+  margin-bottom: 24px; }
+
+.hero-banner-2 .flex-bannar {
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start; }
+
+.counter-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 8px;
+  margin: 0; }
+
+.counter-list {
+  margin-top: 32px; }
+
+.counter-item {
+  width: 64px;
+  height: 64px;
+  border: 2px solid white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border-radius: 50%; }
+
+.counter-text {
+  line-height: 1; }
+
+@media (max-width: 991px) {
+  .hero-banner .hero-heading {
+    font-size: 42px; }
+  .hero-banner .hero-text {
+    max-width: 520px; }
+  .hero-banner-2 .content-box {
+    max-width: 400px;
+    padding: 48px; }
+  .hero-banner-2 .hero-subheading {
+    font-size: 16px; }
+  .hero-banner-2 .hero-heading {
+    font-size: 28px; }
+  .hero-banner-2 .button,
+  .hero-banner-2 .button:hover,
+  .hero-banner-2 .button:focus {
+    min-width: 180px; } }
+
+@media (max-width: 767px) {
+  .hero-fixed-bg {
+    height: 600px; }
+  .hero-banner .hero-heading {
+    font-size: 38px; }
+  .hero-banner .hero-text {
+    max-width: 450px; }
+  .hero-banner-2 .button,
+  .hero-banner-2 .button:hover,
+  .hero-banner-2 .button:focus {
+    min-width: 170px;
+    height: 50px;
+    font-size: 13px; } }
+
+@media (max-width: 575px) {
+  .hero-banner {
+    background-position: center left 30%; }
+  .hero-banner-2 .content-box {
+    max-width: 100%;
+    padding: 40px 10px; }
+  .hero-banner-2 .button,
+  .hero-banner-2 .button:hover,
+  .hero-banner-2 .button:focus {
+    min-width: 160px;
+    height: 48px; }
+  .counter-item {
+    width: 56px;
+    height: 56px; }
+  .count-days {
+    font-size: 16px; }
+  .counter-text {
+    font-size: 10px; } }

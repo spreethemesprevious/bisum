@@ -251,4 +251,149 @@ blockquote {
     margin-top: 40px;
 }
 
+// Blog card 2
+
+.blog-card {
+  margin-top: 42px;
+}
+
+.blog-card .blog-content {
+  margin-top: 16px;
+}
+
+.blog-image {
+  display: flex;
+  overflow: hidden;
+}
+
+.blog-image img {
+  width: 100%;
+  transition: all 0.4s ease-in-out;
+  object-fit: cover;
+  object-position: center;
+  height: auto;
+}
+
+.blog-card-2:hover .blog-image img,
+.blog-card:hover .blog-image img {
+  transform: scale(1.1);
+  transform-origin: center;
+}
+
+.blog-text {
+  margin-top: 15px;
+}
+
+.blog-publish {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 5px;
+  opacity: 0.75;
+}
+
+.blog-title {
+  display: block;
+  margin-top: 8px;
+  color: var(--title-color);
+  font-family: var(--title-font-family);
+}
+
+.blog-title:hover {
+    color: inherit;
+}
+
+.blog-date:before {
+  content: "";
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  background: rgba(0, 0, 0, 1);
+  border-radius: 50%;
+  top: 51%;
+  transform: translateY(-50%);
+  left: 0;
+  opacity: 0.6;
+}
+
+.blog-page .blog-card-3 .blog-date:before {
+  display: none;
+}
+
+.blog-page .blog-card-3 .blog-button {
+  text-transform: capitalize;
+}
+
+.blog-date {
+  padding-left: 13px;
+}
+
+.blog-page .blog-card-3 .blog-date {
+  padding-left: 0;
+}
+
+.filter-content .blog-date {
+  padding-left: 0;
+  margin-top: 7px;
+  opacity: 0.75;
+}
+
+.filter-content .blog-date:before {
+  display: none;
+}
+
+.blog-button {
+  margin-top: 12px;
+}
+
+.blog-tag-content {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.blog-card-tag {
+  background: #000;
+  color: #fff;
+  padding: 5px 15px;
+  border-radius: 40px;
+  display: block;
+}
+
+.blog-card-2 .blog-date:before {
+  content: none;
+}
+
+.blog-card-2 .blog-date {
+  padding: 0;
+}
+
+.blog-card-2 .blog-date,
+.blog-card-2 .blog-author {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  color: var(--body-color);
+  font-family: var(--body-font-family);
+}
+
+.blog-card-2 .blog-publish {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin: 0;
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  background: var(--body-background-color);
+  padding: 8px 12px;
+  transition: all 0.3s;
+  opacity: 0.5;
+}
+
+.blog-card-2:hover .blog-publish {
+  background: var(--body-background-color);
+  opacity: 1;
+}
 
