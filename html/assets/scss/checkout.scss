@@ -140,11 +140,12 @@
         margin-bottom: 4px;
     }
     input, select {
-        height: 34px;
+        height: 40px;
         border: 1px solid rgba(0,0,0,0.1);
         outline: none !important;
         box-shadow: none !important;
         border-radius: 4px;
+        padding: 0 16px;
     }
     fieldset {
         margin-top: 20px;
